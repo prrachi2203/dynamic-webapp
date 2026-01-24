@@ -1,4 +1,5 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://8p23atq3nq.ap-south-1.awsapprunner.com
+";
 
 const taskInput = document.getElementById("taskInput");
 const dueDateInput = document.getElementById("dueDateInput");
@@ -187,3 +188,4 @@ loadTasks();
 
 // ✅ important for delete button onclick
 window.deleteTask = deleteTask;
+
