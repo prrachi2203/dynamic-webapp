@@ -1,6 +1,4 @@
-const API_BASE = "https://8p23atq3nq.ap-south-1.awsapprunner.com
-";
-
+const API_BASE = "https://8p23atq3nq.ap-south-1.awsapprunner.com";
 const taskInput = document.getElementById("taskInput");
 const dueDateInput = document.getElementById("dueDateInput");
 const addBtn = document.getElementById("addBtn");
@@ -188,4 +186,5 @@ loadTasks();
 
 // ✅ important for delete button onclick
 window.deleteTask = deleteTask;
+
 
