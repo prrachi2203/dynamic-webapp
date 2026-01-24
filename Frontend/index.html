@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <h1>Task Manager</h1>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+
+    <div class="form">
+      <input type="text" id="taskInput" placeholder="Enter a new task..." />
+      <input type="date" id="dueDateInput" />
+
+      <button id="aiBtn" class="ai-btn">AI Improve</button>
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <div class="tasks-section">
+      <h2>Tasks</h2>
+      <ul id="taskList"></ul>
+    </div>
+
+    <p id="status" class="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
