@@ -1,6 +1,3 @@
-Sure — here is a **simple textual overview** (short + clear) you can put in your GitHub README:
-
----
 
 ## Dynamic WebApp Overview
 
@@ -32,7 +29,3 @@ For cloud deployment, the project can be hosted using AWS services:
 * **Frontend** on **Amazon S3 (Static Hosting)** (optional CloudFront for HTTPS)
 * **Backend** on **AWS EC2** (Node server running online)
 * **Database** on **Amazon RDS PostgreSQL**
-
-This setup makes the project scalable, secure, and production-ready.
-
----
