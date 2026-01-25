@@ -1,23 +1,38 @@
-# Dynamic WebApp (Frontend + Backend)
+Sure — here is a **simple textual overview** (short + clear) you can put in your GitHub README:
 
-## Project Structure
-- `Backend/` → Node.js backend (API server)
-- `Frontend/` → Static frontend (HTML/CSS/JS)
+---
 
-## Local Setup
+## Dynamic WebApp Overview
 
-### Backend
-1. Open terminal inside `Backend/`
-2. Install dependencies:
-   npm install
-3. Start server:
-   npm start
+This project is a **full-stack Dynamic Task Manager Web Application** built using **Frontend + Backend + Database**.
 
-Backend runs on: http://localhost:3000 (or the PORT configured)
+The **frontend** is made using **HTML, CSS, and JavaScript**, where users can:
 
-### Frontend
-Open `Frontend/index.html` in a browser.
+* Sign up and log in
+* Add tasks
+* Select a due date using a calendar
+* Delete tasks
+* Use an “AI Improve” button to improve task text
 
-## Deployment
-- Backend can be deployed on **AWS App Runner**
-- Frontend can be hosted on **Amazon S3 + CloudFront**
+The **backend** is built using **Node.js and Express.js**, which provides API routes for:
+
+* User authentication (Signup/Login)
+* Task operations (Add/View/Delete)
+* AI Improve logic
+
+Authentication is implemented using:
+
+* **bcrypt** for secure password hashing
+* **JWT tokens** for login session handling and protected APIs
+
+All user data and tasks are stored permanently in a **PostgreSQL database**, so tasks remain saved even after restarting the server.
+
+For cloud deployment, the project can be hosted using AWS services:
+
+* **Frontend** on **Amazon S3 (Static Hosting)** (optional CloudFront for HTTPS)
+* **Backend** on **AWS EC2** (Node server running online)
+* **Database** on **Amazon RDS PostgreSQL**
+
+This setup makes the project scalable, secure, and production-ready.
+
+---
